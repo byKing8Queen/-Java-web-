@@ -1,1 +1,3 @@
 此项目运行软件myeclipse2015,服务器tomcat 8.0，java jdk 1.8
+特别注意：present.js！！
+         textField和valueField的位置不可上下互换，否则会发生下拉选框不显示数据的错误！！ 
