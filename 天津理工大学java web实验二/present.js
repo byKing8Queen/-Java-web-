@@ -3,7 +3,7 @@
  */
 $('#province').combobox({
    url:'GetProvinceInfo',
-   valueField: 'province',//指定json中哪一项为值 字段
-   testField: 'province',//指定json中哪一项为要显示的文字字段
-   panelHeight:'auto',
+   textField: 'province',//指定json中哪一项为需要显示的文字字段
+   valueField: 'province',//指定json中哪一项为值字段
+   panelHeight: 110,//规定一个固定值后，当数据比较多时，下拉选框就会出现滑动条
 });
